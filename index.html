@@ -4,66 +4,47 @@
 		<link rel="stylesheet" href="/openspacetest/css/ospace.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<title>Open Space Test</title>
 	</head>
 
 	<body>
 
-		<header class="header">
+		<div class="banner">
+			<p>info@openspacevashon.com • (206) 555-5555</p>
+			<div class="banner__socials-list">
+				<p>[FB icon]</p>
+				<p>[IG icon]</p>
+				<p>[YouTube]</p>
+				<p>[Linkedin]</p>
+			</div>
+		</div>
+
+		<header class="header make-bold">
 			<h1 class="header__title">Open Space for Arts & Community</h1>
 			<a class="header__link" href="/openspacetest/" target="_self">
 				<img class="header__logo" src="/openspacetest/images/logo.png">
 			</a>
 			<nav class="nav">
-				<ul class="nav__list nav__list--sub">
-					
-						<li class="nav__item">
-							<a>Buy Tickets</a>
-						</li>
-					
-						<li class="nav__item">
-							<a>Search</a>
-						</li>
-					
-						<li class="nav__item">
-							<a>Login</a>
-						</li>
-					
-				</ul>
 				<ul class="nav__list">
 					
 						<li class="nav__item">
-							<a class="nav__link" href="/openspacetest/about-us">About Us</a>
+							<a class="nav__link" href="/openspacetest/events">Upcoming Events</a>
 						</li>
 					
 						<li class="nav__item">
-							<a class="nav__link" href="/openspacetest/events">Events</a>
+							<a class="nav__link" href="/openspacetest/classes">Classes & Workshops</a>
 						</li>
 					
 						<li class="nav__item">
-							<a class="nav__link" href="/openspacetest/classes">Classes</a>
+							<a class="nav__link" href="/openspacetest/renting">Rental Information</a>
 						</li>
 					
 						<li class="nav__item">
-							<a class="nav__link" href="/openspacetest/programs">Programs</a>
-						</li>
-					
-						<li class="nav__item">
-							<a class="nav__link" href="/openspacetest/plan-your-event">Plan Your Event</a>
-						</li>
-					
-						<li class="nav__item">
-							<a class="nav__link" href="/openspacetest/blog">Blog</a>
-						</li>
-					
-						<li class="nav__item">
-							<a class="nav__link" href="/openspacetest/shop">Shop</a>
-						</li>
-					
-						<li class="nav__item">
-							<a class="nav__link" href="/openspacetest/support">Support</a>
+							<a class="nav__link" href="/openspacetest/about">About Us</a>
 						</li>
 					
 				</ul>
@@ -78,46 +59,47 @@
 </section>
 
 <section class="section">
-	<h3 class="section__header">About Us</h3>
-	<p class="section__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	<a class="section__button" href="/openspacetest/about-us">Learn more</a>
-</section>
+	<h3 class="h--1 make-black no-margins">Events</h3>
+	<h4 class="h--2 no-margins spacer-below-2">What's happening at Open Space</h4>
+	<p class="paragraph p--2 contained">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-<section class="section section--gray">
-	<h3 class="section__header">Events</h3>
-	<h4 class="section__subheader">What's happening at Open Space</h4>
-	<p class="section__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 	<div class="gallery">
 		
-		<div class="gallery__item gallery__item--card">
-			<img class="gallery__img" src="images/lakou.jpeg">
-			<p class="gallery__tag">Music</p>
-			<p class="gallery__name gallery__name--card">Lakou Mizik</p>
-			<p class="gallery__dates">Mar. 31</p>
-		</div>
+			<a class="reset-link-style" href="/openspacetest/events/lakou-mizik" target="_self">
+				<div class="gallery__item gallery__item--card card">
+					<img class="gallery__img" src="/openspacetest/images/concept-events/lakou.jpeg">
+					<p class="gallery__tag">Music</p>
+					<p class="gallery__name gallery__name--card">Lakou Mizik</p>
+					<p class="gallery__dates">March 04</p>
+				</div>
+			</a>
 		
-		<div class="gallery__item gallery__item--card">
-			<img class="gallery__img" src="images/yamandu.jpeg">
-			<p class="gallery__tag">Music</p>
-			<p class="gallery__name gallery__name--card">Yamandu Costa</p>
-			<p class="gallery__dates">Apr. 29</p>
-		</div>
+			<a class="reset-link-style" href="/openspacetest/events/doctor-strange-in-the-multiverse-of-madness" target="_self">
+				<div class="gallery__item gallery__item--card card">
+					<img class="gallery__img" src="/openspacetest/images/concept-events/drstrange2.jpg">
+					<p class="gallery__tag">Night Light Drive-in</p>
+					<p class="gallery__name gallery__name--card">Doctor Strange in the Multiverse of Madness</p>
+					<p class="gallery__dates">March 06</p>
+				</div>
+			</a>
 		
-		<div class="gallery__item gallery__item--card">
-			<img class="gallery__img" src="images/winghaven.jpeg">
-			<p class="gallery__tag">Theatre</p>
-			<p class="gallery__name gallery__name--card">Winghaven Park</p>
-			<p class="gallery__dates">Aug. 26–Sept. 3</p>
-		</div>
+			<a class="reset-link-style" href="/openspacetest/events/much-ado-about-nothing" target="_self">
+				<div class="gallery__item gallery__item--card card">
+					<img class="gallery__img" src="/openspacetest/images/concept-events/ws.jpeg">
+					<p class="gallery__tag">Theatre</p>
+					<p class="gallery__name gallery__name--card">Much Ado About Nothing</p>
+					<p class="gallery__dates">March 20</p>
+				</div>
+			</a>
 		
 	</div>
 	<a class="section__button" href="/openspacetest/events">See our events</a>
 </section>
 
-<section class="section">
-	<h3 class="section__header">Classes</h3>
-	<h4 class="section__subheader">Education from ages 5 to 105</h4>
-	<p class="section__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<section class="section section--gray">
+	<h3 class="h--1 make-black no-margins">Classes</h3>
+	<h4 class="h--2 no-margins spacer-below-2">Education from ages 5 to 105</h4>
+	<p class="paragraph p--2 contained">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 	<div class="gallery">
 		
 		<div class="gallery__item gallery__item--card">
@@ -156,10 +138,10 @@
 	<a class="section__button" href="/openspacetest/classes">View our classes</a>
 </section>
 
-<section class="section section--gray">
-	<h3 class="section__header">Programs</h3>
-	<h4 class="section__subheader">Special initatives at Open Space</h4>
-	<p class="section__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<section class="section">
+	<h3 class="h--1 make-black no-margins">Programs</h3>
+	<h4 class="h--2 no-margins spacer-below-2">Special initatives at Open Space</h4>
+	<p class="paragraph p--2 contained">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 	<div class="gallery">
 		
 		<div class="gallery__item">
@@ -186,62 +168,6 @@
 	</div>
 </section>
 
-<section class="section">
-	<h3 class="section__header">Plan Your Event</h3>
-	<p class="section__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	<a class="section__button" href="/openspacetest/plan-your-event">Learn more</a>
-</section>
-
-<section class="section section--gray">
-	<h3 class="section__header">Blog</h3>
-	<h4 class="section__subheader">The latest Open Space news</h4>
-	<p class="section__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	<div class="gallery">
-		
-		<div class="gallery__item">
-			<img class="gallery__img" src="images/cover.png">
-			<p class="gallery__name">More Dates Added to Solitude_The Exhibition</p>
-			<p class="gallery__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-			<a class="gallery__link">Read more ></a>
-		</div>
-		
-		<div class="gallery__item">
-			<img class="gallery__img" src="images/cover.png">
-			<p class="gallery__name">Press Release: Our First Artist In Residence</p>
-			<p class="gallery__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-			<a class="gallery__link">Read more ></a>
-		</div>
-		
-		<div class="gallery__item">
-			<img class="gallery__img" src="images/cover.png">
-			<p class="gallery__name">Liquid Light with a Twist</p>
-			<p class="gallery__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-			<a class="gallery__link">Read more ></a>
-		</div>
-		
-		<div class="gallery__item">
-			<img class="gallery__img" src="images/cover.png">
-			<p class="gallery__name">General Mojo’s Close Out the Summer Stage on September 19th</p>
-			<p class="gallery__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-			<a class="gallery__link">Read more ></a>
-		</div>
-		
-	</div>
-	<a class="section__button" href="/openspacetest/blog">More Open Space news</a>
-</section>
-
-<section class="section">
-	<h3 class="section__header">Shop</h3>
-	<p class="section__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	<a class="section__button" href="/openspacetest/shop">Visit our shop</a>
-</section>
-
-<section class="section section--gray">
-	<h3 class="section__header">Support</h3>
-	<p class="section__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	<a class="section__button" href="/openspacetest/support">Learn more</a>
-</section>
-
 <main>
 
 
@@ -249,13 +175,36 @@
 			<div>
 				<p>[Open Space logo]</p>
 				<p>P.O. Box 345<br />18870 103rd Avenue SW<br />Vashon, WA 98070</p>
-				<p>[4Culture & ArtsWA logos]
-				<p>Hours / Parking / Directions</p>
+				<p>[Socials]</p>
 			</div>
 			<div>
-				<p>[Socials]</p>
-				<p>All content is © 2022 Open Space. All rights reserved.</p>
-				<p>Privacy Policy / Terms and Conditions</p>
+				<ul class="no-bullets">
+					<li>Upcoming Events</li>
+					<li>Classes & Workshops</li>
+					<li>Rental Information</li>
+					<li>About Us</li>
+						<ul class="no-bullets">
+							<li>Employment & Volunteering</li>
+							<li>Financials</li>
+						</ul>
+					<li>Programs</li>
+						<ul class="no-bullets">
+							<li>ORBIT Youth Center</li>
+							<li>!Attention! Artists at Work</li>
+							<li>UMO School</li>
+						</ul>
+					<li>Blog</li>
+					<li>Press Room</li>
+
+					<li>Privacy Policy (?)</li>
+					<li>Terms & Conditions (?)</li>
+					<li>Shop (?)</li>
+					<li>Support (?)</li>
+				</ul>
+			</div>
+			<div>
+				<p>All content is ©2022 Open Space for Arts & Community. All rights reserved.</p>
+				<p>[4Culture & ArtsWA logos]</p>
 			</div>
 		</footer>
 
